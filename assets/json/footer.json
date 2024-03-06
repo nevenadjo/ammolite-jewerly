@@ -1,0 +1,28 @@
+[
+    {
+    "icon": "<i class=\"fa-brands fa-facebook-f\"></i>",
+    "href": "www.facebook.com",
+    "type": "socials"
+    },
+    {
+    "icon": "<i class=\"fa-brands fa-instagram\"></i>",
+    "href": "www.instagram.com",
+    "type": "socials"
+    },
+    {
+    "icon": "<i class=\"fa-brands fa-x-twitter\"></i>",
+    "href": "www.x.com",
+    "type": "socials"
+    },
+    {
+    "icon": "<i class=\"fa-regular fa-file\"></i>",
+    "href": "dokumentacija.pdf",
+    "type": "docs"
+    },
+    {
+    "icon": "<i class=\"fa-solid fa-sitemap\"></i>",
+    "href": "sitemap.xml",
+    "type": "docs"
+    }
+]
+  

@@ -1,0 +1,322 @@
+[
+  {
+      "id": 1,
+      "img": {
+          "src": "assets/img/necklaces/slika1.jpg",
+          "alt": "Sea Shell Necklace"
+      },
+      "price": {
+          "new": 85,
+          "old": null,
+          "discount": null
+      },
+      "type": "necklace",
+      "material": "gold",
+      "collection": "gemstone",
+      "description" : "Embrace timeless beauty with our 14k gold pendant necklace, featuring a solitaire diamond of 0.5 carats, suspended from an adjustable chain available in 16, 18, or 20 inches. This versatile piece adds a touch of luxury to any neckline."
+  },
+  {
+      "id": 2,
+      "img": {
+          "src": "assets/img/necklaces/slika2.jpg",
+          "alt": "Emerald Necklace"
+      },
+      "price": {
+          "new": 78,
+          "old": null,
+          "discount": null
+      },
+      "type": "necklace",
+      "material": "silver",
+      "collection": "gemstone",
+      "description" : "Make a bold statement with our chunky chain necklace, meticulously crafted silver and available in various lengths, including 22 and 24 inches. The substantial links create a contemporary and eye-catching accessory."
+  },
+  {
+      "id": 3,
+      "img": {
+          "src": "assets/img/necklaces/slika3.jpg",
+          "alt": "Ruby Heart Necklace"
+      },
+      "price": {
+          "new": 92,
+          "old": null,
+          "discount": null
+      },
+      "type": "necklace",
+      "material": "silver",
+      "collection": "gemstone",
+      "description":"Add vibrancy to your ensemble with our gemstone necklace, featuring a selection of colorful stones set in silver. Choose your preferred karat and length for a personalized and eye-catching accessory."
+  },
+  {
+      "id": 4,
+      "img": {
+          "src": "assets/img/necklaces/slika4.jpg",
+          "alt": "Dark Titanium Necklace"
+      },
+      "price": {
+          "new": 76,
+          "old": null,
+          "discount": null
+      },
+      "type": "necklace",
+      "material": "silver",
+      "collection": "gemstone",
+      "description":"Immerse yourself in bohemian chic with our beaded necklace, featuring a combination of natural stones and eclectic beads, available in 20 or 24 inches. The adjustable length ensures a perfect fit for your free-spirited style."
+  },
+  {
+      "id": 5,
+      "img": {
+          "src": "assets/img/rings/slika1.jpg",
+          "alt": "Sea Shell Coctail Ring"
+      },
+      "price": {
+          "new": 72,
+          "old": null,
+          "discount": null
+      },
+      "type": "ring",
+      "material": "gold",
+      "collection": "gemstone",
+      "description" : "Elegance meets vintage charm in our handcrafted rose gold ring, featuring intricate filigree patterns and a 14k gold setting. This stunning piece is available in a variety of sizes, ensuring a perfect fit for any occasion."
+  },
+  {
+      "id": 6,
+      "img": {
+          "src": "assets/img/rings/slika2.jpg",
+          "alt": "Queens Emerald Ring"
+      },
+      "price": {
+          "new": 61,
+          "old": null,
+          "discount": null
+      },
+      "type": "ring",
+      "material": "silver",
+      "collection": "gemstone",
+      "description":"Dazzle in opulence with our silver band, boasting a 1-carat round-cut diamond and a pave setting. This timeless piece is perfect for engagements, radiating sophistication with enduring brilliance."
+  },
+  {
+      "id": 7,
+      "img": {
+          "src": "assets/img/rings/slika3.jpg",
+          "alt": "Ruby Heart Ring"
+      },
+      "price": {
+          "new": 72,
+          "old": null,
+          "discount": null
+      },
+      "type": "ring",
+      "material": "silver",
+      "collection": "gemstone",
+      "description":"Command attention with our cocktail ring, a true masterpiece set in silver, adorned with a breathtaking array of sapphires, emeralds, and rubies totaling 2.5 carats. The vibrant gemstones create a captivating display of color and luxury."
+  },
+  {
+      "id": 8,
+      "img": {
+          "src": "assets/img/rings/slika4.jpg",
+          "alt": "Dark Titanium Ring"
+      },
+      "price": {
+          "new": 64,
+          "old": null,
+          "discount": null
+      },
+      "type": "ring",
+      "material": "silver",
+      "collection": "gemstone",
+      "description":"Embrace modernity with our titanium ring, not only revered for its durability but also its sleek, brushed finish. This lightweight and hypoallergenic piece is available in various sizes, making it a versatile addition to any collection."
+  },
+  {
+      "id": 9,
+      "img": {
+          "src": "assets/img/necklaces/slika5.jpg",
+          "alt": "Two Faced Necklace"
+      },
+      "price": {
+          "new": 70,
+          "old": 100,
+          "discount": 30
+      },
+      "type": "necklace",
+      "material": "gold",
+      "collection": "classic",
+      "description":"Illuminate your neckline with our celestial-inspired necklace, adorned with shimmering stars and moons. Crafted in 18k gold, this enchanting piece is available in 16 or 18 inches, capturing the magic of the night sky."
+  },
+  {
+      "id": 10,
+      "img": {
+          "src": "assets/img/necklaces/slika6.jpg",
+          "alt": "Rainbow Necklace"
+      },
+      "price": {
+          "new": 60,
+          "old": 75,
+          "discount": 20
+      },
+      "type": "necklace",
+      "material": "silver",
+      "collection": "classic",
+      "description":"Fuel your wanderlust with our world map pendant necklace, intricately engraved in 14k gold. Choose from 18, 20, or 22 inches to carry the spirit of adventure wherever you go."
+  },
+  {
+      "id": 11,
+      "img": {
+          "src": "assets/img/necklaces/slika7.jpg",
+          "alt": "Pearl Mirror Necklace"
+      },
+      "price": {
+          "new": 49,
+          "old": 70,
+          "discount": 30
+      },
+      "type": "necklace",
+      "material": "gold",
+      "collection": "classic",
+      "description":"Embrace sophistication with our pearl strand necklace, showcasing lustrous pearls hand-knotted along an 18-inch chain. The timeless design and choice of karat ensure an elegant and classic accessory for any occasion."
+  },
+  {
+      "id": 12,
+      "img": {
+          "src": "assets/img/necklaces/slika8.jpg",
+          "alt": "Snow White Necklace"
+      },
+      "price": {
+          "new": 52,
+          "old": 65,
+          "discount": 20
+      },
+      "type": "necklace",
+      "material": "silver",
+      "collection": "classic",
+      "description":"Connect with nature through our leaf-inspired necklace, available in 10k gold with intricate detailing. The 16 or 18-inch chain enhances the organic beauty of this exquisite piece."
+  },
+  {
+      "id": 13,
+      "img": {
+          "src": "assets/img/necklaces/slika9.jpg",
+          "alt": "Cleopatra Necklace"
+      },
+      "price": {
+          "new": 52,
+          "old": 80,
+          "discount": 35
+      },
+      "type": "necklace",
+      "material": "silver",
+      "collection": "classic",
+      "description":"Embrace modern elegance with our geometric pendant necklace, featuring angular shapes. Choose from 16, 18, or 20 inches for a contemporary and sophisticated addition to your jewelry collection."
+  },
+  {
+      "id": 14,
+      "img": {
+          "src": "assets/img/necklaces/slika10.jpg",
+          "alt": "Love Locket Necklace"
+      },
+      "price": {
+          "new": 63,
+          "old": 84,
+          "discount": 25
+      },
+      "type": "necklace",
+      "material": "gold",
+      "collection": "classic",
+      "description":"Elevate your style with our lariat necklace, a chic piece, crafted in 14k gold, with a pendant that can be adjusted for a customizable length, ranging from 18 to 20 inches. Effortlessly transition from day to night with this versatile accessory."
+  },
+  {
+      "id": 15,
+      "img": {
+          "src": "assets/img/rings/slika3.jpg",
+          "alt": "Queen Of Hearts Ring"
+      },
+      "price": {
+          "new": 76,
+          "old": 95,
+          "discount": 20
+      },
+      "type": "ring",
+      "material": "silver",
+      "collection": "classic",
+      "description":"Commemorate nature's beauty with our tree-inspired ring, meticulously crafted in silver and featuring intricate details that showcase the delicate branches and leaves. Choose your preferred karat for a custom touch."
+  },
+  {
+      "id": 16,
+      "img": {
+          "src": "assets/img/rings/slika4.jpg",
+          "alt": "Snow Princess Ring"
+      },
+      "price": {
+          "new": 56,
+          "old": 80,
+          "discount": 30
+      },
+      "type": "ring",
+      "material": "silver",
+      "collection": "classic",
+      "description":"Step into a bygone era with our vintage-inspired ring, adorned with milgrain detailing and a dazzling center stone surrounded by a halo of smaller diamonds. Available in different karats to suit your preference."
+  },
+  {
+      "id": 17,
+      "img": {
+          "src": "assets/img/rings/ring1.jpg",
+          "alt": "Kingdom Ring"
+      },
+      "price": {
+          "new": 47,
+          "old": 54,
+          "discount": 13
+      },
+      "type": "ring",
+      "material": "gold",
+      "collection": "classic",
+      "description":"Add a personal touch with our birthstone ring, crafted in 14k gold and customizable with the gemstone of your choice. This sentimental piece allows you to carry the significance of your birth month wherever you go."
+  },
+  {
+      "id": 18,
+      "img": {
+          "src": "assets/img/rings/ring2.jpg",
+          "alt": "Radiant Energy Ring"
+      },
+      "price": {
+          "new": 49,
+          "old": 68,
+          "discount": 28
+      },
+      "type": "ring",
+      "material": "silver",
+      "collection": "classic",
+      "description":"Symbolize eternal love with our intertwined bands. The enduring design represents unity and connection, and the choice of karat adds a touch of individuality to this meaningful accessory."
+  },
+  {
+      "id": 19,
+      "img": {
+          "src": "assets/img/rings/ring3.jpg",
+          "alt": "Rose Saphire Ring"
+      },
+      "price": {
+          "new": 51,
+          "old": 56,
+          "discount": 9
+      },
+      "type": "ring",
+      "material": "silver",
+      "collection": "classic",
+      "description":"Make a bold statement with our avant-garde ring, available in unconventional materials such as black rhodium-plated sterling silver. The distinctive design challenges traditional norms, offering a unique and edgy addition to your collection."
+  },
+  {
+      "id": 20,
+      "img": {
+          "src": "assets/img/rings/ring4.jpg",
+          "alt": "Princess Peach Ring"
+      },
+      "price": {
+          "new": 62,
+          "old": 72,
+          "discount": 14
+      },
+      "type": "ring",
+      "material": "gold",
+      "collection": "classic",
+      "description":"Elevate your style with our stackable rings, each crafted in 10k gold and adorned with pearls, crystals, and geometric shapes. Mix and match to create a personalized stack that suits your mood and fashion preferences."
+  }
+]

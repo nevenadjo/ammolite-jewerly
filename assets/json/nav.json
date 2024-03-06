@@ -1,0 +1,22 @@
+[
+    {
+        "naslov": "Home",
+        "link": "index.html"
+    },
+    {
+        "naslov": "Shop",
+        "link": "shop.html"
+    },
+    {
+        "naslov": "Contact",
+        "link": "contact.html"
+    }, 
+    {
+        "naslov": "Author",
+        "link": "author.html"
+    },
+    {
+        "naslov": "Cart<i class='fa-solid fa-cart-shopping'></i><span id='stavke'></span>",
+        "link": "cart.html"
+    }
+]

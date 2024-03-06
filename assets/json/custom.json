@@ -1,0 +1,58 @@
+[
+    {
+        "type":"necklace",
+        "img": 
+        {
+            "src":"assets/img/necklaces/necklace1.jpg",
+            "alt":"Black Swan Necklace"
+        },
+        "price": "50$"
+    },
+    {
+        "type":"necklace",
+        "img": 
+        {
+            "src":"assets/img/necklaces/necklace2.jpg",
+            "alt":"Three Raindrops Necklace"
+        },
+        "price": "65$"
+    },
+    {
+        "type":"necklace",
+        "img": 
+        {
+            "src":"assets/img/necklaces/necklace3.jpg",
+            "alt":"Stormy Gold Necklace"
+        },
+        "price": "70$"
+    },
+    {
+        "type":"ring",
+        "img": 
+        {
+            "src":"assets/img/rings/ring1.jpg",
+            "alt":"Gold Crown Ring"
+        },
+        "price": "40$"
+    },
+    {
+        "type":"ring",
+        "img": 
+        {
+            "src":"assets/img/rings/ring2.jpg",
+            "alt":"White Dove Ring"
+        },
+        "price": "52$"
+    },
+    {
+        "type":"ring",
+        "img": 
+        {
+            "src":"assets/img/rings/ring3.jpg",
+            "alt":"Rose Saphire Ring"
+        },
+        "price": "67$"
+    }
+]
+    
+   

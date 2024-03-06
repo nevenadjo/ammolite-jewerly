@@ -1,0 +1,468 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    word-wrap: normal;
+    scroll-behavior: smooth;
+}
+
+//colors
+
+@main: #2C3540;
+@detail: #E4062B;
+
+//header
+
+header{
+    background-color: rgba(255,255,255,0.8);
+    backdrop-filter: blur(6px);
+    box-shadow: 0px 1px 10px lightgrey;
+    z-index: 2;
+}
+#logo{
+    #logo-img{
+        width: 60px;
+        padding: 5px;
+    }
+    h1{
+        margin: 0px;
+        color: @main;
+        font-size: calc(1vw + 1rem);
+    }
+}
+
+#list{
+    li{
+        a{
+            text-decoration: none;
+            margin-left: 10px;
+            color: @main;
+        }
+
+    }
+}
+.activeL{
+    color: @detail !important;
+}
+
+//cover
+
+#cover{
+    background-image: url('../img/cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vw * (840px / 1919px);
+    position: relative;
+    #plus{
+        i{
+            position: absolute;
+            font-size: calc(1vw + 1rem);
+            color: @main;
+            p{
+                display: none;
+                font-size: 14px;
+                text-transform: capitalize;
+                font-weight:300;
+            }
+        }
+        #chain{
+            top: 69%;
+            left:55%;
+        }
+        #heart{
+            top:75%;
+            left:27%;
+        }
+    }
+}
+
+//main
+
+#btn-contact{
+    color: @detail;
+    background-color: white;
+    border: 1px solid @main;
+}
+#btn-contact:hover{
+    font-weight: bold;
+}
+
+
+figcaption{
+    font-size: 14px;
+    color: @detail;
+}
+
+.colorD{
+    color:@detail;
+}
+#carousel-id, #carousel-id1{
+    border-radius: 10px 0px 10px 0px;
+}
+h2{
+    font-size: calc(1vw + 1rem) !important;
+}
+.row{
+    margin: 0px auto !important;
+}
+
+//sale timer
+
+.bg-detail{
+    background-color: @detail !important;
+    color: #FFF !important;
+}
+.bg-gray{
+    background-color: #f8f8f8;
+}
+#free{
+    font-size: 40px !important;
+}
+.colorM{
+    color: @main;
+}
+
+.bg-main{
+    background-color: @main;
+   // margin-top: 20px;
+    font-weight: bold;
+    padding: 10px 0px;
+    p{
+        color: white;
+        margin-bottom: 0px;
+        padding: 2px;
+    }
+}
+.pad-t{
+    padding-top: 70px;
+}
+#sort{
+    margin-right: 60px !important;
+}
+
+#btn-select{
+    input{
+        background-color: transparent;
+        color: @detail;
+        border: 0px;
+        text-decoration: underline;
+        padding: 0px 5px;
+        margin: 15px 10px;
+    }
+}
+.roundedSlika{
+    border-radius: 10px 0px 10px 0px;
+}
+.mainC{
+    color: @main;
+}
+.stara{
+    color: @main;
+    text-decoration: line-through;
+}
+.bold{
+    font-weight: bold !important;
+}
+thead{
+    td{
+        font-weight: bold;
+        color: @main;
+    }
+}
+td{
+    text-align: center;
+    padding: 4px;
+    img{
+        width: 100%;
+    }
+}
+.w-td{
+    width:10%;
+}
+
+
+
+//futer
+
+#futer{
+    padding: 5px;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        margin: 1px;
+    }
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.wrapper {
+    flex: 1;
+}
+#desc{
+    font-size: 12px;
+}
+
+//CONTACT
+
+.l-gray{
+    color: #808080 !important;
+}
+.form-control:focus{
+    border-color: @main !important;
+    box-shadow: 0px 0px transparent !important;
+}
+.form-control{
+  appearance: menulist-button !important;
+}
+#min{
+    display: inline !important;
+    width: 50px;
+    margin-top: 10px;
+}
+.form-label{
+    margin-bottom: 0px !important;
+    margin-top: 10px;
+    font-size: 14px;
+}
+#formP1, #formP2, #message, #submit{
+    margin-bottom: 0px !important;
+    margin-top: 10px !important;
+    font-size: 14px;
+}
+.padding-header{
+    padding-top: 70px;
+}
+#price{
+    label{
+        font-size: 14px;
+    }
+}
+#forma{
+   background-color: #f6f1ee;
+   border-radius: 20px;
+    input[type="text"]{
+        font-size: 14px;
+    }
+    height: auto;
+    #checkGem{
+        label{
+            font-size: 13px;
+            margin-left: 2px;
+        }
+    }
+    #style{
+        font-size: 14px;
+        padding-top:7px !important;
+        padding-bottom: 8px !important;
+        option{
+            font-size: 14px;
+        }
+        option[id="0"]{
+            color:#808080;
+        }
+    }
+}
+#submit{
+    margin-bottom: 10px !important;
+    color: @detail;
+}
+
+#tekstForma{
+    p{
+        text-align: center;
+        margin-bottom: 0px !important;
+    }
+    #formaP{
+        color: @detail;
+        margin-top: 5px;
+        font-size: 18px;
+    }
+}
+#questions{
+    #que{
+        margin: 20px !important;
+    }
+}
+#menu li { 
+    a{
+        display: block;
+        width: 100%;
+        font-size: 18px;
+        border-top: 1px solid @main;
+        text-decoration: none;
+        padding: 10px;
+        color: @main;
+    }
+    ul{
+        list-style-type: none;
+        li{
+            padding: 5px;
+        }
+    }
+}
+#menu > li:last-child{
+    border-bottom: 1px solid @main;
+}
+
+#scrollUp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: @detail;
+    border: 1px solid @detail;
+    color: white;
+    padding: 2px 9px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+.p-message{
+    font-size: 11px;
+    color: @detail;
+    margin-bottom: 0px;
+}
+
+//author
+
+#author{
+    width: 400px;
+}
+#info p:nth-child(odd){
+    font-weight: bold;
+    color: @detail;
+}
+
+//responsive
+
+@media screen and(max-width: 769px){
+    #jcc, #jcc1, #niz_slika{
+        justify-content: center !important;
+        margin-top: 0px !important;
+    }
+    #slike{
+        order: 1;
+        margin-top:50px;
+    }
+    #tekst{
+        order: 2;
+        margin: 0px 10px !important;
+        font-size: 13px;
+    }
+    #btn-contact{
+        font-size: 13px;
+        padding: 5px;
+    }
+    figcaption{
+        font-size: 12px;
+    }
+    #slider-text{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    #h2{
+        margin-top: 25px !important;
+        margin-bottom: 25px !important;
+    }
+    #plus{
+        i{
+            p{
+                font-size: 12px !important;
+            }
+        }
+    }
+    #free{
+        font-size: 30px !important;
+    }
+    #allPro{
+        font-size: 18px !important;
+    }
+    #textPro{
+        font-size: 13px;
+    }
+    .card-title{
+        font-size: 15px !important;
+    }
+    #filter{
+        position: absolute;
+        width: 50%;
+        z-index: 3;
+        background-color: #fff;
+
+    }
+    #btn-filter{
+        display: block !important;
+    }
+}
+
+@media screen and(max-width: 481px){
+    #nav{
+        position: relative;
+    }
+    #nav-list{
+        display:none;
+        position: absolute;
+        width:100vw;
+        top: 30px;
+        right: -1.5rem*0.5;
+        backdrop-filter: blur(6px);
+        background-color: rgba(255,255,255,0.9);
+        #list{
+            flex-direction: column;
+            
+            li{
+                width: 100%;
+                align-items: center;
+                text-align: center;
+                border-bottom: 1px solid gray;
+                margin: 2px;
+            }
+        }
+    }
+    #menu > li> ul > li{
+        font-size: 12px;
+    }
+    #menu > li a{
+        font-size: 15px;
+    }
+    #futer{
+        p, i{
+            font-size: 12px;
+        }
+        div{
+            padding: 0px;
+        }
+    }
+}
+
+@media screen and(min-width: 481px){
+    #nav-btn{
+        display:none;
+    }
+}
+@media screen and(max-width: 415px){
+    #cover{
+        top: 20px;
+        #plus{
+            i{
+                font-size: calc(1vw + 0.5rem);
+                p{
+                    font-size: 10px !important;
+                }
+            }
+        }
+    }
+    #saleT{
+        p{
+            font-size: 13px;
+        }
+    }
+
+}

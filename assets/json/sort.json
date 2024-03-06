@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "sort":"Name A-Z"
+    },
+    {
+        "id":2,
+        "sort":"Name Z-A"
+    },
+    {
+        "id":3,
+        "sort":"Price low-high"
+    },
+    {
+        "id":4,
+        "sort":"Price high-low"
+    },
+    {
+        "id":5,
+        "sort":"Biggest discount"
+    }
+]
