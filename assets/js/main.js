@@ -469,7 +469,7 @@ function ispisCart(){
             price+=`.00</span></p>
             <p class="p-message">Free Shipping Over $150</p>
             <p id="cenaT" class="bold colorD">$${cenaTotal}.00</p>
-            <button onclick="orderStuff()" class="btn btn-secondary mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">ORDER</button>`
+            <button class="btn btn-secondary mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">ORDER</button>`
             $("#total").html(price);
 
         })
@@ -673,6 +673,8 @@ $(document).ready(function(){
                     });
             });
         }
+    }
+    if(url =="/contact.html" || url == "/cart.html"){
 
         //form validation
         var regExImePrezime =/^[A-ZŠĐŽĆČ][a-zžđšćč]{1,}(\s[A-ZŠĐŽĆČ][a-zžđšćč]{1,})*/;
@@ -733,7 +735,8 @@ $(document).ready(function(){
                 mess2.classList.add("d-none");
             }
         })
-
+    }
+    if(url =="/contact.html"){
         //style
         var mess3 = document.createElement("p");
         mess3.textContent="Style has to be selected.";
@@ -760,6 +763,41 @@ $(document).ready(function(){
             }
             else if(style.selectedIndex!=0 && regExMejl.test(mail.value) && regExImePrezime.test(fName.value) && regExImePrezime.test(lName.value)){
                document.getElementById("succ").classList.remove("d-none")
+            }
+        })
+    }
+
+    if(url =="/cart.html"){
+
+        regexAdd = /^[0-9a-zA-Z\s,.'-]+$/;
+
+        //address
+        var mess3 = document.createElement("p");
+        mess3.textContent="Enter your address.";
+        document.getElementById("address").appendChild(mess3);
+        mess3.classList.add("p-message");
+        mess3.classList.add("d-none");
+
+        document.getElementById("adresa").addEventListener("change", function(){
+            if(!regexAdd.test(document.getElementById("adresa").value)){
+                mess3.classList.remove("d-none");
+            }
+            else{
+                mess3.classList.add("d-none");
+            }
+        })
+
+        //button 
+        $("#submit").on("click", function(){
+            if(!regexAdd.test(document.getElementById("adresa").value) && !regExMejl.test(mail.value) && !regExImePrezime.test(fName.value) && !regExImePrezime.test(lName.value)){
+                let nizP = Array.from(document.getElementsByClassName("p-message"));
+                nizP.forEach((el) => {
+                    el.classList.remove("d-none")
+                })
+            }
+            else if(regexAdd.test(document.getElementById("adresa").value) && regExMejl.test(mail.value) && regExImePrezime.test(fName.value) && regExImePrezime.test(lName.value)){
+               document.getElementById("succ").classList.remove("d-none")
+               orderStuff();
             }
         })
     }
