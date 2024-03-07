@@ -387,6 +387,7 @@ function sort(id, data){
 }
 
 
+
 function resetFilter(){
     setRange()
     allProducts()
