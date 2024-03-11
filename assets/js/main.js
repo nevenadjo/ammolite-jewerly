@@ -238,7 +238,8 @@ function bestDeals() {
 //ispis svih proizvoda
 function allProducts(){
     callback("products.json", function (data) {
-        cards(data, "products");
+        setupPagination(data);
+        //cards(data, "products");
         $(".dugme").click(function () {
             let id = $(this).attr("data-id");
             callback("products.json", function (data) {
@@ -288,6 +289,11 @@ $(document).ready(function(){
 
 //filtriranje
 $("#formaFilter").on("change keyup", function(){
+    filter();
+    
+})
+
+function filter(){
     callback("products.json", function (data) {
         nizForma = Array.from(document.getElementsByTagName("input"));
         nizForma.forEach((el) => {
@@ -332,7 +338,9 @@ $("#formaFilter").on("change keyup", function(){
             if(select!=0){
                 data = sort(select, data);
             }
-            cards(data, "products");
+            console.log("ddd" +data)
+            setupPagination(data);
+            //cards(data, "products");
             $(".dugme").click(function () {
                 let id = $(this).attr("data-id");
                 callback("products.json", function (data) {
@@ -342,7 +350,7 @@ $("#formaFilter").on("change keyup", function(){
             })
         }
     })
-})
+}
 
 //sortiranje
 function sort(id, data){
@@ -386,7 +394,34 @@ function sort(id, data){
     return data;
 }
 
+const itemsPerPage = 8;
 
+function setupPagination(filteredData) {
+    const numberOfPages = Math.ceil(filteredData.length / itemsPerPage);
+
+    $('#pagination-controls').empty();
+    for (let i = 1; i <= numberOfPages; i++) {
+        $('#pagination-controls').append(`<a href="#" data-page="${i}">${i}</a> `);
+    }
+
+    $('#pagination-controls a').on('click', function(e) {
+        e.preventDefault();
+        const page = parseInt($(this).data('page'), 10);
+        $('#pagination-controls').find('a').removeClass('active');
+        $('#pagination-controls').find('a[data-page="' + page + '"]').addClass('active');
+        displayPage(filteredData, page, itemsPerPage);
+    });
+
+    displayPage(filteredData, 1, itemsPerPage);
+}
+
+
+function displayPage(data, pageNum, itemsPerPage) {
+    const start = (pageNum - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    const paginatedItems = data.slice(start, end);
+    cards(paginatedItems, "products")
+}
 
 function resetFilter(){
     setRange()

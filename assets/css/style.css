@@ -167,6 +167,19 @@ body {
 #desc {
   font-size: 12px;
 }
+#pagination-controls {
+  display: flex;
+  justify-content: center;
+}
+#pagination-controls a {
+  display: block;
+  margin: 0px 2px;
+  text-decoration: none;
+}
+.active {
+  font-weight: bold;
+  text-decoration: underline !important;
+}
 .l-gray {
   color: #808080 !important;
 }
